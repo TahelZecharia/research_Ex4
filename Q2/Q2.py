@@ -10,14 +10,15 @@ from itertools import chain, combinations
 
 """
 Minimum Vertex Cover Algorithm
-
+a)
 The algorithm returns an approximate minimum weighted vertex cover.
 The set of nodes returned by this function is guaranteed to be a vertex cover,
 and the total weight of the set is guaranteed to be at most twice the total
 weight of the minimum weight vertex cover. In other words, w(s) <= 2*w(s*)
+
+c)
+The approximation ratio is quite similar to the theoretical ratio. Maybe a little better.
 """
-
-
 
 
 def power_set(n):
